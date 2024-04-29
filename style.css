@@ -7,6 +7,14 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .cabecalho{
+<<<<<<< HEAD
+    background-color: #383D58; /*Define a cor de fundo do elemento com a classe .cabecalho.*/
+    color: white; /*Define a cor do texto dentro do elemento */
+    display: flex;/*Esta propriedade define como o elemento deve ser exibido. flex é usado aqui, o que indica que o elemento deve usar o modelo de layout flexível. Isso permite um controle mais fácil sobre o posicionamento dos elementos filhos dentro do elemento .cabecalho.*/
+    justify-content: space-around;/*Esta propriedade controla o alinhamento dos itens ao longo do eixo principal do contêiner flexível. space-around distribuirá os itens igualmente ao longo do eixo principal, com espaços iguais entre eles e em torno do contêiner.*/
+    align-items: center;/*Controla o alinhamento dos itens ao longo do eixo transversal do contêiner flexível. center aqui alinhará os itens verticalmente no centro do contêiner .cabecalho.*/
+    padding: 24px 0;/*Define o preenchimento (espaço interno) ao redor do conteúdo dentro do elemento .cabecalho. No exemplo dado, o preenchimento superior e inferior é de 24px, enquanto o preenchimento esquerdo e direito é 0, significando que não há preenchimento horizontal.*/
+=======
     background-color: #67b5bb;
     color: white;
     display: flex;
@@ -14,75 +22,90 @@ body{
     align-items: center;
     padding: 24px 0;
     align-items: ;
+>>>>>>> 06bde6feeeffb6e03b283f0e2b735b8adf9ae9d2
 }
 .cabecalho-imagem{
+<<<<<<< HEAD
+    width: 5%;/**/
+=======
     width: 5%;
+>>>>>>> 06bde6feeeffb6e03b283f0e2b735b8adf9ae9d2
 }
 
  .cabecalho-lista-item{
-    display: inline-block;
-    margin: 0% 25px;
-    font-size: 24px;
+    display: inline-block;/**/
+    margin: 0% 25px;/**/
+    font-size: 24px;/**/
+    /**/
  }
 
  .escola-imagem{
-    width: 25%;
+    width: 25%;/**/
  }
 
  .escola{
+<<<<<<< HEAD
+    background-color: linear-gradient(#383D58,#4EBFE9);/*Define a cor de fundo do elemento com a classe */
+    color: white;/*Define a cor do texto dentro do elemento */
+    display: flex;/**/
+    justify-content: center;/**/
+    align-items: center;/**/
+    padding: 24px 0;/**/
+=======
     background-image: linear-gradient(#67b5bb,#4EBFE9);
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 24px 0;
+>>>>>>> 06bde6feeeffb6e03b283f0e2b735b8adf9ae9d2
  }
 
  .escola-div-conteudo{
-    width: 35%;
+    width: 35%;/**/
  }
 
  .escola-titulo{
-    padding: 24px 0;
+    padding: 24px 0;/**/
  }
 
  .estudante-imagem{
-    width: 120px;
+    width: 120px;/**/
  }
 
  .estudante-div{
-    text-align: center;
+    text-align: center;/**/
  }
 
  .estudante-titulo{
-    text-align: center;
-    padding: 50px 0;
+    text-align: center;/**/
+    padding: 50px 0;/**/
  }
  a:link{
-    color: white;
-    text-decoration: none;
+    color: white;/*Define a cor do texto dentro do elemento */
+    text-decoration: none;/**/
  }
 a:visited{
-    color: white;
-    text-decoration: none;
+    color: white;/*Define a cor do texto dentro do elemento */
+    text-decoration: none;/**/
 }
  .estudante-todos{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    display: grid;/**/
+    grid-template-columns: 20% 20% 20% 20% 20%;/**/
  }
  
  .rodape{
-    background-color: black;
-    text-align: center;
+    background-color: black;/*Define a cor de fundo do elemento com a classe */
+    text-align: center;/**/
  }
 
  .rodape-imagem{
-    min-height: 60px;
-    padding: 12px 0;
+    min-height: 60px;/**/
+    padding: 12px 0;/**/
  }
 
  .nome__escola{
-   display: inline-flex;
-   text-align: center;
-   color: white;
+   display: inline-flex;/**/
+   text-align: center;/**/
+   color: white;/*Define a cor do texto dentro do elemento */
  }
